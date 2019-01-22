@@ -33,6 +33,6 @@ function AlteraRele2(){
     } else {
         document.getElementById("estado_3").innerHTML="0";
         document.getElementById("rele_3").innerHTML="<div class='rele3_desligado'></div>";
-        document.getElementById("botao_3").innerHTML="<a href='/?23ligar' class='botao_3'>Liga</a>";
+        document.getElementById("botao_3").innerHTML="<a href='/?3_ligar' class='botao_3'>Liga</a>";
     }
 }
