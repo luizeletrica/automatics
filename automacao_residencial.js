@@ -1,5 +1,6 @@
 function AlteraRele1(){
     var estado = document.getElementById("estado").innerHTML;
+    var monitora_pino_rele1 = 0
     if((estado === "0")&&(monitora_pino_rele1 === "1"){
         document.getElementById("estado").innerHTML="1";
         document.getElementById("rele").innerHTML="<div class='rele1_ligado'></div>";
